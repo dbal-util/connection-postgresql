@@ -18,7 +18,7 @@
         "ext-pdo-pqsql":"In order to use PostgreSQL databases."
     },
     "autoload": {
-        "psr-4": { "DbalUtil\\Connection\\Postgresql": "" }
+        "psr-4": { "DbalUtil\\Connection\\Postgresql\\": "" }
     },
     "extra": {
         "branch-alias": {
