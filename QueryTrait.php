@@ -55,16 +55,3 @@ trait QueryTrait
 */
 
 }
-
-//^   NOTE: Just because you CAN use quoted identifiers doesn't mean you SHOULD use them. In general, they end up causing way more problems than they solve.
-//^   Search for "quote" "quoteIdentifier" "quoteSingleIdentifier" "quoteStringLiteral" "getStringLiteralQuoteCharacter" in this page
-//^   https://www.google.ca/search?q=quote+quoteIdentifier+quoteSingleIdentifier+quoteStringLiteral+getStringLiteralQuoteCharacter+site:www.doctrine-project.org/api/dbal
-//^   https://www.google.ca/search?q=AbstractPlatform+quote+quoteIdentifier+quoteSingleIdentifier+quoteStringLiteral+getStringLiteralQuoteCharacter+site:www.doctrine-project.org/api/dbal
-//^   $conn->getDatabasePlatform()->...
-// Quoting of identifiers is SQL-dialect dependent (and differs between identifiers and literal values)
-//^ https://stackoverflow.com/questions/22459092/pdo-postgresql-quoted-identifiers-in-where
-//^ Postgres manual
-//^ https://www.postgresql.org/docs/current/static/sql-syntax-lexical.html
-// Quoting of values seems more or less similar in main SQL dialects
-//^ https://www.w3schools.com/sql/sql_insert.asp
-//^ https://www.postgresql.org/docs/current/static/dml-insert.html
