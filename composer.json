@@ -1,0 +1,31 @@
+{
+    "name": "dbal-util/connection-postgresql",
+    "type": "library",
+    "description": "Trait and Methods for Querying PostgreSQL on a DBAL Connection",
+    "keywords": ["dbal", "database", "persistence", "queryobject", "postgresql"],
+    "homepage": "https://github.com/dbal-util/connection-postgresql",
+    "license": "MIT",
+    "authors": [
+        {"name": "Jean-Bernard Addor"}
+    ],
+    "require": {
+        "php": ">=5.4",
+        "doctrine/dbal": "^2.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+        "ext-pdo-pqsql",
+    },
+    "autoload": {
+        "psr-4": { "DbalUtil\\Connection\\Postgresql": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "archive": {
+        "exclude": ["!vendor", "tests", "*phpunit.xml", ".travis.yml", "build.xml", "build.properties", "composer.phar"]
+    }
+}
