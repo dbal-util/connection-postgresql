@@ -15,7 +15,7 @@
     "require-dev": {
     },
     "suggest": {
-        "ext-pdo-pqsql":"In order to use PostgreSQL databases.",
+        "ext-pdo-pqsql":"In order to use PostgreSQL databases."
     },
     "autoload": {
         "psr-4": { "DbalUtil\\Connection\\Postgresql": "" }
