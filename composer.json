@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "dbal-util/connection": "0.1.x-dev@dev"
+        "doctrine-dbal-util/connection": "0.1.x-dev@dev"
     },
     "require-dev": {
     },
