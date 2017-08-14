@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Trait and Methods for Querying PostgreSQL on a DBAL Connection",
     "keywords": ["dbal", "database", "persistence", "queryobject", "postgresql"],
-    "homepage": "https://github.com/dbal-util/connection-postgresql",
+    "homepage": "https://github.com/doctrine-dbal-util/connection-postgresql",
     "license": "MIT",
     "authors": [
         {"name": "Jean-Bernard Addor"}
